@@ -1,15 +1,14 @@
 #include <stdio.h>
 /**
  * main - prints combinations of 3 different digits
- * return: Always 0
+ * return: always 0
  */
 
 int main(void)
 {
 	int a;
 	int n;
-	int g;
-	
+	int g;	
 	for (a = '0'; a <= '9'; a++)
 	{
 		for (n = '1'; n <= '9'; n++)
