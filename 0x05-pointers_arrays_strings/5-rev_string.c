@@ -6,22 +6,20 @@
  */
 void rev_string(char *s)
 {
-	int i, c, k;
-	char *a, aux;
-	a = s;
-	while (s[c] != '\0')
+	char *begin = s;
+	char t;
+	/*set pointer at the end*/
+	for (; *(s); s++)
 	{
-		c++;
 	}
-	for (k = 1; k < c; k++)
+	s--;
+
+	/*loop to change the letters*/
+	for (; s >= begin; s--)
 	{
-		a++;
-	}
-	for (i = 0; i < (c / 2); i++)
-	{
-		aux = s[i];
-		s[i] = *a;
-		*a = aux;
-		a--;
+		t = *begin;
+		*begin = *s;
+		*s = t;
+		begin++;
 	}
 }
