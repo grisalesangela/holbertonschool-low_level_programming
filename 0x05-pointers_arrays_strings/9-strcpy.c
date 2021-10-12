@@ -8,7 +8,6 @@
 char *_strcpy(char *dest, char *src)
 {
 	int e;
-	
 	for (e = 0; src[e]; e++)
 	
 	{
