@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stddef.h>
+#include <stdlib.h>
 /**
  * create_array - Create an array of chars
  * @size: size of memory to allocate
