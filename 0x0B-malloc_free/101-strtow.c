@@ -1,11 +1,13 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stddef.h>
+
 /**
  * strtow - splits a string into words
  * @str: string to split
  * Return: a pointer to an array of strings (words)
  */
+
 char **strtow(char *str)
 {
 	int i, j, k, l, words, wlen;
@@ -31,7 +33,7 @@ char **strtow(char *str)
 			ret[1] = (char *)malloc((wlen + 1) * sizeof(char));
 			if (ret[1] == NULL)
 			{
-				for (; 1 >= 0; l--)
+				for (; l >= 0; l--)
 					free(ret[1]);
 				free(ret);
 				return (NULL);
