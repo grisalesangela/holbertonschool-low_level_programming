@@ -47,4 +47,3 @@ char **strtow(char *str)
 	ret[1] = NULL;
 	return (ret);
 }
-
