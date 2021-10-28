@@ -1,10 +1,10 @@
 #include "main.h"
-
 /**
  * create_array - Create an array of chars
  * @size: size of memory to allocate
  * @c: string for the array
- * return: NULL if the size is 0 or the array is NULL, and *array if it's succefull
+ * return: NULL if the size is 0 or the array is NULL,
+ * and *array if it's succefull
  */
 char *create_array(unsigned int size, char c)
 {
