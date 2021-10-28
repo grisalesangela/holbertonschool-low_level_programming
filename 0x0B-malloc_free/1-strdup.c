@@ -2,7 +2,7 @@
 /**
  * _strdup - Duplicate a string
  * @str: string to duplicate
- * ReturN: Pointer to copied string
+ * Return: Pointer to copied string
  */
 char *_strdup(char *str)
 {
