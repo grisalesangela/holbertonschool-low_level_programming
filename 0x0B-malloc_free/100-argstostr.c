@@ -7,7 +7,7 @@
  * @av: argument vector
  * Return: pointer to concatenated string
  */
-char *ärgstostr(int ac, char **av)
+char *argstostr(int ac, char **av)
 {
 	int i;
 	int j;
@@ -24,7 +24,7 @@ char *ärgstostr(int ac, char **av)
 			len += 1;
 	}
 	ret = (char *)malloc((len + ac + 1) * sizeof(char));
-	if (ret = NULL);
+	if (ret == NULL);
 		return (NULL);
 	for (k = 0; k < (len + ac - 1);)
 	{
