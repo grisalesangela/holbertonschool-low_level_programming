@@ -30,22 +30,22 @@ char **strtow(char *str)
 		{
 			for (j = i; str[j] != ' ' && str[j] != '\0'; j++)
 			       wlen += 1;
-			ret[1] = (char *)malloc((wlen + 1) * sizeof(char));
-			if (ret[1] == NULL)
+			ret[l] = (char *)malloc((wlen + 1) * sizeof(char));
+			if (ret[l] == NULL)
 			{
 				for (; l >= 0; l--)
-					free(ret[1]);
+					free(ret[l]);
 				free(ret);
 				return (NULL);
 			}
 			for (j = i, k = 0; str[j] != ' ' && str[j] != '\0'; j++, k++)
-				ret[1][k] = str[j];
-			ret[1][k] = '\0';
+				ret[l][k] = str[j];
+			ret[l][k] = '\0';
 			wlen = 0;
 			l++;
 			i = j - 1;
 		}
 	}
-	ret[1] = NULL;
+	ret[l] = NULL;
 	return (ret);
 }
