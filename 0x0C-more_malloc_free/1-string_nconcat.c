@@ -8,6 +8,7 @@
  *@n: characters to take from s2
  *Return: pointer to callocated memory or null if fail
  */
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *concs;
@@ -18,13 +19,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (s2 == NULL)
 		s2 = "";
-	
+
 	for (les1 = 0; s1[les1] != '\0'; les1++)
 		;
-	
+
 	for (les2 = 0; s2[les2] != '\0'; les2++)
 		;
-	
+
 	if (n >= les2)
 		n = les2;
 
