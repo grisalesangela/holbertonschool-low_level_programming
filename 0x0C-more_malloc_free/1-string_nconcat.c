@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stddef.h>
 #include <stdlib.h>
+
 /**
  *string_nconcat - concatenates two strings
  *@s1: prefix string
@@ -9,10 +10,12 @@
  *Return: pointer to a new space contaning s1 and n bytes of n2,
  *ended by a NULL character
  */
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int i, j, k, len1, len2;
 	char *ret;
+
 	len1 = len2 = 0;
 	if (s1 == NULL)
 	{
