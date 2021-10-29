@@ -1,2 +1,2 @@
 Hello, this is the README.md
-check this out
+Check this out
