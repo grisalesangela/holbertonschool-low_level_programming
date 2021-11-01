@@ -13,4 +13,4 @@ int main(void)
 		_putchar(*p++);
 	}
 	return (0);
-}	
+}
