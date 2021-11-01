@@ -9,7 +9,7 @@ int main(void)
 	int n;
 	int g;
 	int e;
-	
+
 	for (a = '0'; a <= '9'; a++)
 	{
 		for (n = '0'; n <= '9'; n++)
@@ -18,14 +18,14 @@ int main(void)
 			{
 				for (e = '1'; e <= '9'; e++)
 				{
-					if(e > n)
+					if (e > n)
 					{
 						putchar(a);
 						putchar(n);
 						putchar(' ');
 						putchar(g);
 						putchar(e);
-					if(a == '9' && n == '8' && g == '9' && e == '9')
+					if (a == '9' && n == '8' && g == '9' && e == '9')
 					{
 						putchar(10);
 					}
