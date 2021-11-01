@@ -19,7 +19,7 @@ int main(void)
 		n1 = n2;
 		n2 = f;
 		if ((f % 2) == 0)
-			s = s +f;
+			s = s + f;
 	}
 	printf("%ld\n", s);
 	return (0);
