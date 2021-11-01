@@ -13,7 +13,7 @@ int main(void)
 	n1 = 1;
 	n2 = 2;
 	printf("%.0f, %.0f, ", n1, n2);
-	for (pos =1; pos <= 96; pos++)
+	for (pos = 1; pos <= 96; pos++)
 	{
 		f = n1 + n2;
 		n1 = n2;
