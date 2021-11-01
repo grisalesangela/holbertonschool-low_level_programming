@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints combinations of two pairs of digits
- * return: always 0
+ * Return: always 0
  */
 int main(void)
 {
