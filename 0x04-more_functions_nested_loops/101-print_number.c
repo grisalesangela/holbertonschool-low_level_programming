@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * print_numbers - prints number n (from -99999 to 99999)
+ * Print_numbers - Prints number n (from -99999 to 99999)
  * @n: number to print
  * return: always 0
  */
 
-void print_numbers(int n)
+void Print_numbers(int n)
 {
 	if (n < 0)
 	{
