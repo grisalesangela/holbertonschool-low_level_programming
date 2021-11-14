@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * more_numbers - print numbers from 0 to 14
- * Return: no return
+ * more_numbers - Print numbers from 0 to 14
+ * Return: No return
  */
 
 void more_numbers(void)
@@ -12,13 +12,13 @@ void more_numbers(void)
 
 	for (c = 1; c <= 10; c++)
 	{
-		for (l = 0; 1 <= 14; l++)
+		for (l = 0; l <= 14; l++)
 		{
-			if (1 >= 10)
+			if (l >= 10)
 			{
 				putchar((1 / 10) + '0');
 			}
-			putchar((1 % 10) + '0');
+			putchar((l % 10) + '0');
 		}
 		putchar('\n');
 	}
