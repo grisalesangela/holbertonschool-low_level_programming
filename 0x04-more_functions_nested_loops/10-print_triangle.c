@@ -6,7 +6,6 @@
  * @size: how big the triangle would be
  * Return: no return
  */
-
 void print_triangle(int size)
 {
 	int c, l;
