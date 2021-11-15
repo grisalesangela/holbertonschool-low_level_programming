@@ -2,7 +2,7 @@
 /**
  * first - print something before main
  */
-void __attrbute__ ((constructor)) first()
+void __attrbute__ (constructor) first()
 {
 	char *s;
 
