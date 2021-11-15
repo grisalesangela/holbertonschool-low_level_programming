@@ -4,7 +4,7 @@
  * first - print something before main
  */
 
-void __attrbute__((constructor))first()
+void __attribute__ ((constructor)) first()
 {
 	char *s;
 
