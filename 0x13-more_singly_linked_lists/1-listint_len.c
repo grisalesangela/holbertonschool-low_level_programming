@@ -8,16 +8,15 @@
 
 size_t listint_len(const listint_t *h)
 {
-	size_t countnodes = 0;
+	unsigned int nodes;
 
-	if (h == NULL)
+	nodes = 0;
+	while (h && h->next != NULL)
 	{
-		return (0);
-	}
-	while (h)
-	{
+		nodes += 1;
 		h = h->next;
-		countnodes++;
 	}
-	return (countnodes);
+	if (h)
+		nodes += 1;
+	return (nodes);
 }
