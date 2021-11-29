@@ -8,7 +8,7 @@ void print_chessboard(char (*a)[8])
 {
 	int x = 0, y;
 
-	while (x < 9)
+	while (x < 8)
 	{
 		y = 0;
 		while (y < 8)
