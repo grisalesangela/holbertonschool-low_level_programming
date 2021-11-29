@@ -17,7 +17,7 @@ char *leet(char *s)
 	{
 		while (*(ch + j) != '\0')
 		{
-			if (*(s + i) = *(ch + j))
+			if (*(s + i) == *(ch + j))
 				*(s + i) = *(ds + j);
 			j++;
 		}
